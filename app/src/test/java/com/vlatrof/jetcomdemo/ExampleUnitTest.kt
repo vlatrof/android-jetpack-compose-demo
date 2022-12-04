@@ -1,4 +1,4 @@
-package com.vlatrof.androidjetpackcomposedemo
+package com.vlatrof.jetcomdemo
 
 import org.junit.Test
 

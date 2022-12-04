@@ -1,4 +1,4 @@
-package com.vlatrof.androidjetpackcomposedemo
+package com.vlatrof.jetcomdemo
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.vlatrof.androidjetpackcomposedemo", appContext.packageName)
+        assertEquals("com.vlatrof.jetcomdemo", appContext.packageName)
     }
 }
